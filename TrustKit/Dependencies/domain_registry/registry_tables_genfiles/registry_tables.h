@@ -306,7 +306,7 @@ static const char kStringTable[] =
 "from-ok\0" "from-or\0" "from-pa\0" "from-ri\0" "from-sc\0" "from-tn\0"
 "from-tx\0" "from-ut\0" "from-va\0" "from-vt\0" "from-wa\0" "from-wi\0"
 "from-wv\0" "from-wy\0" "geekgalaxy\0" "getmyip\0" "giize\0" "githubusercontent\0"
-"gleeze\0" "googleapis\0" "googlecode\0" "gotpantheon\0" "health-carereform\0"
+"gleeze\0" /*"googleapis\0" */"googlecode\0" "gotpantheon\0" "health-carereform\0"
 "herokuapp\0" "herokussl\0" "hobby-site\0" "homelinux\0" "homesecuritymac\0"
 "homesecuritypc\0" "homeunix\0" "iamallama\0" "is-a-anarchist\0"
 "is-a-blogger\0" "is-a-bookkeeper\0" "is-a-bulls-fan\0" "is-a-caterer\0"
@@ -2929,7 +2929,7 @@ static const struct TrieNode kNodeTable[] = {
   { 13978,     0,     0, 1 },  /* giize.com */
   { 13984,     0,     0, 1 },  /* githubusercontent.com */
   { 14002,     0,     0, 1 },  /* gleeze.com */
-  { 14009,     0,     0, 1 },  /* googleapis.com */
+  // { 14009,     0,     0, 1 },  /* googleapis.com */
   { 14020,     0,     0, 1 },  /* googlecode.com */
   { 12658,     0,     0, 1 },  /* gotdns.com */
   { 14031,     0,     0, 1 },  /* gotpantheon.com */
@@ -9308,5 +9308,5 @@ static const REGISTRY_U16 kLeafNodeTable[] = {
  6026,  /* org.zw */
 };
 
-static const size_t kLeafChildOffset = 3904;
+static const size_t kLeafChildOffset = 3903;
 static const size_t kNumRootChildren = 1555;
